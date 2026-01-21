@@ -3,7 +3,7 @@ from langchain_ollama import ChatOllama
 # 1. Initialize the Local Granite Model
 # This connects to the Ollama app running in the background
 llm = ChatOllama(
-    model="granite3-dense:8b",
+    model="granite3-dense:2b",
     temperature=0.1  # Low temperature for precise, "Architect" answers
 )
 
